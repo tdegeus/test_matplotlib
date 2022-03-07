@@ -1,11 +1,5 @@
 channels:
 - conda-forge
 dependencies:
-- deprecation
-- h5py
 - matplotlib
-- numpy
-- pip
 - python
-- pyyaml
-- scipy

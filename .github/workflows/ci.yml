@@ -35,5 +35,8 @@ jobs:
         environment-name: myenv
         cache-env: true
 
+    - name: Print backend
+      run: python back.py
+
     - name: Run test
       run: python main.py
