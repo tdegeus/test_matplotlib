@@ -38,5 +38,8 @@ jobs:
     - name: Print backend
       run: python back.py
 
+    - name: Print backend
+      run: python test.py
+
     - name: Run test
       run: python main.py
